@@ -1,0 +1,10 @@
+Bundle-Name: amf-profile-detail-api
+Bundle-SymbolicName: com.liferay.amf.profile.detail.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.amf.profile.detail.exception,\
+	com.liferay.amf.profile.detail.model,\
+	com.liferay.amf.profile.detail.service,\
+	com.liferay.amf.profile.detail.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../amf-profile-detail-service/service.xml

@@ -1,0 +1,4 @@
+Bundle-Name: profile-app
+Bundle-SymbolicName: com.liferay.amf
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.amf.constants

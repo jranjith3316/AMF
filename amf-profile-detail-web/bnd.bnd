@@ -1,0 +1,6 @@
+Bundle-Name: amf-profile-detail-web
+Bundle-SymbolicName: com.liferay.amf.profile.detail.web
+Bundle-Version: 1.0.0
+Export-Package: \
+	com.liferay.amf.profile.detail.web.constants,\
+	com.liferay.amf.profile.detail.web.search

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<custom-sql>
+	<sql id="com.liferay.amf.profile.detail.service.persistence.impl.ProfileDetailFinderImpl.getProfileDetailSearchResult">
+			<![CDATA[
+				SELECT pd.profileDetailId, pd.userName, pd.aboutMe, pd.privacy
+FROM   amf_profiledetail pd
+       INNER JOIN contact_ ct
+               ON ct.classPK = pd.userid
+[$WHERE_CLAUSE$]		
+				[$LIMIT$]
+			]]>
+	</sql>
+</custom-sql>

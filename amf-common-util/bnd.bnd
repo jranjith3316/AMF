@@ -1,0 +1,7 @@
+Bundle-Name: amf-common-util
+Bundle-SymbolicName: amf.com.liferay.common.util
+Bundle-Version: 1.0.0
+Export-Package: \
+	amf.com.liferay.common.util.constants,\
+	amf.com.liferay.common.util,\
+	amf.com.liferay.profile.detail.common.model
